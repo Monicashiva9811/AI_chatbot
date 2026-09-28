@@ -1,0 +1,11 @@
+# fastapi
+# python-dotenv
+# openai
+
+fastapi
+uvicorn
+python-dotenv
+google-genai
+
+
+streamlit

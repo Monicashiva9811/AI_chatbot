@@ -1,0 +1,43 @@
+          USER
+            │
+            ▼
+     Streamlit Web Page
+            │
+            │ User types message
+            ▼
+      streamlit_app.py
+            │
+            ▼
+     Gemini API Client
+            │
+            │ Sends user message
+            ▼
+       Gemini AI Model
+      gemini-2.5-flash
+            │
+            │ Generates response
+            ▼
+      streamlit_app.py
+            │
+            ▼
+       Display Reply
+            │
+            ▼
+          USER
+
+
+
+
+
+
+
+
+
+
+| File               | Purpose                                           |
+| ------------------ | ------------------------------------------------- |
+| `.env`             | Stores your Gemini API key securely               |
+| `requirements.txt` | Contains required Python packages                 |
+| `aichatbot.py`     | Basic Python chatbot code                         |
+| `streamlit_app.py` | Creates the chatbot web interface                 |
+| `venv/`            | Virtual environment containing installed packages |
